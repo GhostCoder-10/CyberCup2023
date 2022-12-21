@@ -1,0 +1,434 @@
+body{
+    background-color: #f8f8f8;
+}
+
+.confluence2023{
+    text-align: center;
+    height: 150px;
+}
+
+/* styles of navigation starts from. Don't add any other style here for making confusion */
+
+
+
+.navbar{
+    padding-bottom: 15px;
+}
+
+.nav-item{
+    padding-right: 30px;
+}
+.nav-link{
+    color: #222222;
+    font-family: 'Chivo Mono', monospace;
+}
+.nav-link:hover{
+    color: #82C3EC;
+}
+
+
+/* home page */
+
+.Outter{
+    /* background-image: url('background.jpg'); */
+    height: 100vh;
+    padding: 5%;
+}
+
+.Inner{
+    background-color: #1A1A2E;
+    padding: 2% 5% 2% 5%;
+    margin: 0 15% 0 15%;
+    border: white 4px solid;
+}
+
+#HomePage{
+    color: #fff;
+    text-align: center;
+    background-image: url('./CuberCup/homebg.jpg');
+    height: 100vh;
+    /* height: 100vh; */
+}
+ul{
+    margin-bottom: 0;
+}
+.cyber-cup-logo{
+    height: 100px;
+    width: 100px;
+}
+
+.dept-cse{
+    margin-bottom: 20px;
+}
+.start{
+    padding-top: 15px;
+    font-weight: 400;
+    font-size: 55px;
+    line-height: 1.2;
+    font-family: 'Chivo Mono', monospace;
+}
+.des{
+    font-size: 2.5rem;
+    font-family: 'Chivo Mono', monospace;
+    
+}
+.date{ padding: 20px 0 10px 0;
+    margin: 0;
+    font-size: 20px;
+    
+}
+
+.btns{
+    margin-top: 25px;
+    margin-right: 2rem;
+    margin-bottom: 50px;
+    height: 50px;
+    width: 150px;
+}
+
+/* about section */
+.Title{
+    text-align: center;
+    padding: 3%;
+    font-size: 40px;
+    font-family: 'Rubik', sans-serif;
+}
+.abt{
+    margin: 0 100px 0 100px;
+
+    
+}
+
+.AboutAmity, .About-CSE, .About-CyberCup, .About-ASET{
+    text-align: justify;
+    padding: 20px;
+    
+}
+
+.head1{
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 1.4;
+    font-family: 'Noto Serif NP Hmong', serif;
+    
+}
+.head2{
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 1.4;
+    font-family: 'Roboto',sans-serif;
+
+}
+.para{
+    text-align: justify;
+}
+/* participation information */
+#participation-info{
+    padding-bottom: 100px;
+    height: auto
+}
+.about-participation{
+    margin: 0 100px 0 100px;
+}
+
+.registration-fee, .team-size, .eligibility-criteria, .prizes, .evaluation-criteria, .Rules{
+    text-align: justify;
+    padding: 20px;
+    
+}
+
+.head3{
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 1.4;
+    font-family: 'Dosis', sans-serif;
+    
+}
+
+.para2{
+    font-size: 17px;
+    padding-top: 25px; ;
+}
+/* themes */
+#Themes{
+    padding: 100px;
+    text-align: center;
+}
+.themes-images{
+    height: 150px;
+    width: 150px;
+    padding-bottom: 10px;
+}
+.card{
+    border: 0;
+}
+
+.colmn{
+    padding: 3% 2%;
+    text-align: center;
+}
+.theme1-info{
+    margin-bottom: 45px;
+}
+.theme2-info{
+    margin-bottom: 65px;
+}
+.theme3-info{
+    margin-bottom: 65px;
+
+}
+.row{
+    margin-left: 0;
+    margin-right: 0;
+}
+.problem-statement{
+    margin-top: 25px;
+}
+.btn2 {
+    -webkit-border-radius: 23;
+    -moz-border-radius: 23;
+    border-radius: 23px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 15px;
+    background: #1a5075;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    margin: 2%;
+}
+  
+.btn2:hover {
+    background: #1fa9ff;
+    text-decoration: none;
+}
+
+.register{
+    background-image: url('./CuberCup/registrationbg.jpg');
+    height: 100vh;
+    padding-top: 15%;
+}
+
+.register-info{
+    color: #f8f8f8;
+    border-color: #f8f8f8;
+    border-width: 2px;
+    border-style: solid;
+    margin: 0 15% 0 15%;
+    text-align: center;
+    background-color: #1A1A2E;
+}
+.last-date{
+    font-size: 20px;
+}
+
+/* organizer section */
+.organizer-images{
+    height: 200px;
+    width: 200px;
+    border-radius: 49% 51% 51% 49% / 48% 48% 52% 52% ;
+
+}
+
+/* faq*/
+.faq-heading{
+    border-bottom: #777;
+    padding: 50px 60px;
+    text-align: center;
+}
+.faq-container{
+display: flex;
+justify-content: center;
+flex-direction: column;
+}
+.hr-line{
+  width: 60%;
+  margin: auto;
+  
+}
+/* Style the buttons that are used to open and close the faq-page body */
+.faq-page {
+    /* background-color: #eee; */
+    color: #444;
+    cursor: pointer;
+    padding: 30px 20px;
+    width: 60%;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    margin: auto;
+    font-size: 25px;
+}
+.faq-body{
+    margin: auto;
+    /* text-align: center; */
+   width: 50%; 
+   padding: auto;
+   
+}
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active,
+.faq-page:hover {
+    background-color: #F9F9F9;
+}
+/* Style the faq-page panel. Note: hidden by default */
+.faq-body {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+}
+.faq-page:after {
+    content: '\02795';
+    /* Unicode character for "plus" sign (+) */
+    font-size: 13px;
+    color: #777;
+    float: right;
+    margin-left: 5px;
+}
+.active:after {
+    content: "\2796";
+    /* Unicode character for "minus" sign (-) */
+}
+
+#footer{
+    text-align: center;
+}
+.foot{
+    font-size: 15px;
+    margin-bottom: 20px;
+
+}
+.fot{
+    padding: 5% 0 5%;
+}
+
+.design{
+    margin-top: 20px;
+
+    
+}
+.social-media{
+    margin: 10px;
+    height: 30px;
+    width: 30px;
+}
+
+
+
+@media (max-width: 500px){
+    .confluence2023{
+        text-align: center;
+        height: 80px;
+        width: 100vw;
+    }
+    .nav-item{
+        padding-left: 30px;
+    }
+    .Outter{
+        padding: 1%
+    }
+    .Inner{
+        margin: 10% 0 0 0 ;
+    }
+    .auup{
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    .dept-cse{
+        font-size: 20px;
+        margin-top: 10px;
+        margin-bottom: 15px;
+    }
+    .Title{
+        padding: 3%;
+    }
+    .AboutAmity, .About-CSE, .About-CSE{
+        text-align: left;
+    }
+    .abt{
+        margin: 0;
+    }
+    #participation-info{
+        height: auto;
+    }
+    .about-participation{
+        margin: 0;
+    }
+    .registration-fee, .team-size, .eligibility-criteria, .prizes{
+        text-align: left;
+        
+    }
+    #Themes{
+        padding: 20px;
+    }
+    .register{
+        padding-top: 30%;
+        padding-bottom: 30%;
+        height: auto;
+    }
+    .register-info{
+        margin: 0;
+        padding: 2%;
+    }
+    .navi{
+        margin: 0;
+    }
+    .start{
+        font-size: 40px;
+    }
+    .des{
+        font-size: 2rem;
+    }
+    .btns{
+        text-align: center;
+        height: 50px;
+        width: 110px;
+        margin-right: 0;
+    }
+
+    .faq-page{
+        font-size: 20px;
+        width: auto;
+    }
+    .faq-body{
+        width: 90%;
+    }
+}
+
+@media (min-width: 500px) and (max-width:1000px){
+    .confluence2023{
+        text-align: center;
+        height: 140px;
+        width: 100vw;
+    }
+    .nav-item{
+        padding-left: 30px;
+    }
+    .Outter{
+        padding: 10% 2% 0 2%;
+    }
+    .Inner{
+        margin: 0;
+    }
+    .aset{
+        margin-bottom: 20px;
+        font-size: 35px;
+    }
+    .auup{
+        margin-bottom: 15px;
+        font-size: 40px;
+    }
+    .dept-cse{
+        font-size: 30px;
+        margin-bottom: 40px;
+    }
+    .abt{
+        margin: 0;
+    }
+    .faq-page{
+        width: auto;
+        font-size: 25px;
+    }
+    .faq-body{
+        width: 90%;
+    }
+}
