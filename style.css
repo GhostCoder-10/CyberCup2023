@@ -2,14 +2,16 @@ body{
     background-color: #f8f8f8;
 }
 
+ul{
+    margin-bottom: 0;
+}
 .confluence2023{
     text-align: center;
     height: 150px;
 }
 
-/* styles of navigation starts from. Don't add any other style here for making confusion */
-
-
+/*all the element of navigation bar are designed below this comment to make it easy for anyone to add any other css code for styling navigation bar
+  for making this code more readable different section have different code and every section have a comment just above the code from starting.*/
 
 .navbar{
     padding-bottom: 15px;
@@ -18,19 +20,21 @@ body{
 .nav-item{
     padding-right: 30px;
 }
+
 .nav-link{
     color: #222222;
     font-family: 'Chivo Mono', monospace;
 }
+
 .nav-link:hover{
     color: #82C3EC;
 }
 
 
-/* home page */
+/* Styling code for designing the home page is starting from here and all the css code for styling homepage should be add just below this code to
+make it easy for other to understand.*/
 
 .Outter{
-    /* background-image: url('background.jpg'); */
     height: 100vh;
     padding: 5%;
 }
@@ -47,11 +51,8 @@ body{
     text-align: center;
     background-image: url('./CuberCup/homebg.jpg');
     height: 100vh;
-    /* height: 100vh; */
 }
-ul{
-    margin-bottom: 0;
-}
+
 .cyber-cup-logo{
     height: 100px;
     width: 100px;
@@ -60,6 +61,7 @@ ul{
 .dept-cse{
     margin-bottom: 20px;
 }
+
 .start{
     padding-top: 15px;
     font-weight: 400;
@@ -67,11 +69,13 @@ ul{
     line-height: 1.2;
     font-family: 'Chivo Mono', monospace;
 }
+
 .des{
     font-size: 2.5rem;
     font-family: 'Chivo Mono', monospace;
     
 }
+
 .date{ padding: 20px 0 10px 0;
     margin: 0;
     font-size: 20px;
@@ -86,23 +90,22 @@ ul{
     width: 150px;
 }
 
-/* about section */
+
+/* code for about section of the webpage is below this comment section.  */
 .Title{
     text-align: center;
     padding: 3%;
     font-size: 40px;
     font-family: 'Rubik', sans-serif;
 }
+
 .abt{
     margin: 0 100px 0 100px;
-
-    
 }
 
 .AboutAmity, .About-CSE, .About-CyberCup, .About-ASET{
     text-align: justify;
     padding: 20px;
-    
 }
 
 .head1{
@@ -112,6 +115,7 @@ ul{
     font-family: 'Noto Serif NP Hmong', serif;
     
 }
+
 .head2{
     font-size: 25px;
     font-weight: 600;
@@ -119,14 +123,18 @@ ul{
     font-family: 'Roboto',sans-serif;
 
 }
+
 .para{
     text-align: justify;
 }
+
+
 /* participation information */
 #participation-info{
     padding-bottom: 100px;
     height: auto
 }
+
 .about-participation{
     margin: 0 100px 0 100px;
 }
@@ -149,16 +157,21 @@ ul{
     font-size: 17px;
     padding-top: 25px; ;
 }
-/* themes */
+
+
+
+/* Themes section is designed below this comment section */
 #Themes{
     padding: 100px;
     text-align: center;
 }
+
 .themes-images{
     height: 150px;
     width: 150px;
     padding-bottom: 10px;
 }
+
 .card{
     border: 0;
 }
@@ -167,23 +180,29 @@ ul{
     padding: 3% 2%;
     text-align: center;
 }
+
 .theme1-info{
     margin-bottom: 45px;
 }
+
 .theme2-info{
     margin-bottom: 65px;
 }
+
 .theme3-info{
     margin-bottom: 65px;
 
 }
+
 .row{
     margin-left: 0;
     margin-right: 0;
 }
+
 .problem-statement{
     margin-top: 25px;
 }
+
 .btn2 {
     -webkit-border-radius: 23;
     -moz-border-radius: 23;
@@ -202,6 +221,16 @@ ul{
     text-decoration: none;
 }
 
+/* Sponsors section of webpage is designed just below this comment */
+
+.sponsors{
+    text-align: center;
+}
+
+.sponsor-logo{
+    padding: 3%;
+}
+
 .register{
     background-image: url('./CuberCup/registrationbg.jpg');
     height: 100vh;
@@ -217,11 +246,12 @@ ul{
     text-align: center;
     background-color: #1A1A2E;
 }
+
 .last-date{
     font-size: 20px;
 }
 
-/* organizer section */
+/* organizer section is designed just below this line of comment */
 .organizer-images{
     height: 200px;
     width: 200px;
@@ -229,17 +259,20 @@ ul{
 
 }
 
-/* faq*/
+
+/* faq section is designed below this line of code*/
 .faq-heading{
     border-bottom: #777;
     padding: 50px 60px;
     text-align: center;
 }
+
 .faq-container{
 display: flex;
 justify-content: center;
 flex-direction: column;
 }
+
 .hr-line{
   width: 60%;
   margin: auto;
@@ -289,6 +322,9 @@ flex-direction: column;
     /* Unicode character for "minus" sign (-) */
 }
 
+
+/* code for designing the  Footer section is  just below this code section. */
+
 #footer{
     text-align: center;
 }
@@ -312,7 +348,7 @@ flex-direction: column;
     width: 30px;
 }
 
-
+/* All the media query code is just below the media query for width 500px is for mobile screen or smaller than mobile screen */
 
 @media (max-width: 500px){
     .confluence2023{
@@ -393,6 +429,11 @@ flex-direction: column;
         width: 90%;
     }
 }
+
+
+
+/* this media query is for changing the element property for screen size that is greater than 500px but smaller than 1000px or this section is
+for designing the element for ipad screen size. */
 
 @media (min-width: 500px) and (max-width:1000px){
     .confluence2023{
