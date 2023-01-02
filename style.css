@@ -76,9 +76,14 @@ make it easy for other to understand.*/
     
 }
 
-.date{ padding: 20px 0 10px 0;
+.date{ padding: 15px 0 10px 0;
     margin: 0;
     font-size: 20px;
+    
+}
+
+.award{
+    text-align: center;
     
 }
 
@@ -368,11 +373,17 @@ flex-direction: column;
     .auup{
         font-size: 20px;
         margin-bottom: 10px;
+        font-weight: 100;
+    }
+    .aset{
+        font-weight: 100;
+        font-size: 18px;
     }
     .dept-cse{
-        font-size: 20px;
+        font-size: 19px;
         margin-top: 10px;
         margin-bottom: 15px;
+        font-weight: 100;
     }
     .Title{
         padding: 3%;
