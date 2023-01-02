@@ -230,6 +230,7 @@ make it easy for other to understand.*/
 
 .sponsors{
     text-align: center;
+    padding: 5%;
 }
 
 .sponsor-logo{
@@ -406,6 +407,9 @@ flex-direction: column;
     }
     #Themes{
         padding: 20px;
+    }
+    .sponsors{
+        padding: 10%;
     }
     .register{
         padding-top: 30%;
