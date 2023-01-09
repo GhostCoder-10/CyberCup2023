@@ -1,0 +1,22 @@
+body{
+    background-image: url(./CuberCup/homebg.jpg);
+}
+.text-box{
+    background-color: #3D1766;
+    margin: 250px 450px 0 450px;
+    text-align: center;
+    border: solid 2px white;
+}
+.innerTextBox{
+    padding: 2%;
+    color: white;
+
+}
+.heading{
+    font-size: 30px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.heading2{
+    font-size: 45px;
+    font-family: 'Fira Sans', sans-serif;
+}

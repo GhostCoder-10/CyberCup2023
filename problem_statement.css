@@ -1,0 +1,19 @@
+body{
+    background-color: #1a1a2e;
+}
+.theme-image{
+    text-align: center;
+    padding-top: 50px;
+    
+}
+.image{
+    height: 250px;
+    width: 250px;
+}
+.theme-heading, .problem-statement{
+    color: white;
+    padding: 0 200px 0 100px;
+}
+.theme-heading{
+    padding-top: 50px;
+}
