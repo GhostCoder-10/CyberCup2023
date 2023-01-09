@@ -17,3 +17,9 @@ body{
 .theme-heading{
     padding-top: 50px;
 }
+
+.problem-statement{
+    text-align: justify;
+    font-size: 22px;
+    line-height: 1.6;
+}
