@@ -20,3 +20,9 @@ body{
     font-size: 45px;
     font-family: 'Fira Sans', sans-serif;
 }
+
+@media (max-width: 500px){
+    .text-box{
+        margin: 0;
+    }
+}
