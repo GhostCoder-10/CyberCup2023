@@ -203,7 +203,9 @@ make it easy for other to understand.*/
     margin-left: 0;
     margin-right: 0;
 }
-
+/* .row2{
+    text-align: center;
+} */
 .problem-statement{
     margin-top: 25px;
 }
@@ -409,7 +411,7 @@ flex-direction: column;
         padding: 20px;
     }
     .sponsors{
-        padding: 10%;
+        padding: 10% 0 10% 0;
     }
     .register{
         padding-top: 30%;
